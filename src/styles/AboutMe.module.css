@@ -1,0 +1,180 @@
+.aboutContainer {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+}
+
+.tagline {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+.clock {
+  font-size: 1rem;
+  text-align: right;
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+}
+
+.topSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--accent-color);
+}
+
+.summary {
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: justify;
+  padding: 0 1rem;
+  color: var(--text-primary);
+}
+
+.gridSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.card {
+  background-color: var(--bg-card);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+}
+
+.techList {
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.infoList {
+  list-style: none;
+  padding: 0;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--text-primary);
+}
+
+.infoList li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoList a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.infoList a:hover {
+  text-decoration: underline;
+}
+
+.resumeBox {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.downloadBtn {
+  background-color: var(--accent-color);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.downloadBtn:hover {
+  background-color: var(--accent-dark);
+}
+
+.qrSection {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.qrSection h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+/* Light/Dark Mode Variables */
+:root {
+  --bg-primary: #ffffff;
+  --bg-card: #f9f9f9;
+  --text-primary: #1e1e1e;
+  --text-secondary: #555;
+  --accent-color: #0073e6;
+  --accent-dark: #005bb5;
+  --link-color: #0073e6;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #1c1c1c;
+  --bg-card: #2a2a2a;
+  --text-primary: #f0f0f0;
+  --text-secondary: #aaa;
+  --accent-color: #1e90ff;
+  --accent-dark: #0073e6;
+  --link-color: #4aa3ff;
+}
+.qrHead
+{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .gridSection {
+    grid-template-columns: 1fr;
+  }
+
+  .topSection {
+    text-align: center;
+  }
+
+  .summary {
+    padding: 0;
+  }
+}
