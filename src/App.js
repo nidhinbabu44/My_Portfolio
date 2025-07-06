@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DashboardLayoutWrapper from "./components/DashboardLayoutWrapper";
 import Home from "./pages/Home";
+import My_Portfolio from "./pages/My_Portfolio";
 import Experience from "./pages/ExperienceDetails";
 import EducationCard from "./pages/EducationCard";
 import AboutMe from "./pages/AboutMe";
@@ -33,8 +34,10 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<DashboardLayoutWrapper />}>
+
           <Route index element={<Home />} />
           <Route path="experience" element={<Experience />} />
+          <Route path="My_Portfolio" element={<My_Portfolio />} />
           <Route path="education" element={<EducationCard />} />
           <Route path="projects">
             <Route path="academic" element={<AcademicProjects />} />
