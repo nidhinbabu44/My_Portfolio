@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My_Portfolio/static/css/main.72ac752a.css",
-    "main.js": "/My_Portfolio/static/js/main.b83ed17d.js",
+    "main.js": "/My_Portfolio/static/js/main.9fd088b4.js",
     "static/js/453.8463039d.chunk.js": "/My_Portfolio/static/js/453.8463039d.chunk.js",
     "static/media/n@A.jpg": "/My_Portfolio/static/media/n@A.e116dcd422630211d5a0.jpg",
     "static/media/RHS_exp.jpg": "/My_Portfolio/static/media/RHS_exp.9fd272bada9673a1d71e.jpg",
@@ -10,6 +10,7 @@
     "static/media/clo_project.jpg": "/My_Portfolio/static/media/clo_project.b3c0f2fab700df58ef72.jpg",
     "static/media/nss_edu.jpg": "/My_Portfolio/static/media/nss_edu.23850a80a4edd0e67412.jpg",
     "static/media/chempure_project.jpg": "/My_Portfolio/static/media/chempure_project.e98c095d324678993635.jpg",
+    "static/media/pp_linkedin.jpeg": "/My_Portfolio/static/media/pp_linkedin.6cf21c65f465a30126f5.jpeg",
     "static/media/mzc_edu.jpg": "/My_Portfolio/static/media/mzc_edu.1af758e9ef0ab20dc12b.jpg",
     "static/media/abhs_edu.jpg": "/My_Portfolio/static/media/abhs_edu.cefd200191ed18c01bcd.jpg",
     "static/media/stc_edu.jpg": "/My_Portfolio/static/media/stc_edu.0a876baca2a934a8bb53.jpg",
@@ -21,11 +22,11 @@
     "static/media/moi_project.jpg": "/My_Portfolio/static/media/moi_project.3a585227bc1bc35314f7.jpg",
     "index.html": "/My_Portfolio/index.html",
     "main.72ac752a.css.map": "/My_Portfolio/static/css/main.72ac752a.css.map",
-    "main.b83ed17d.js.map": "/My_Portfolio/static/js/main.b83ed17d.js.map",
+    "main.9fd088b4.js.map": "/My_Portfolio/static/js/main.9fd088b4.js.map",
     "453.8463039d.chunk.js.map": "/My_Portfolio/static/js/453.8463039d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72ac752a.css",
-    "static/js/main.b83ed17d.js"
+    "static/js/main.9fd088b4.js"
   ]
 }
